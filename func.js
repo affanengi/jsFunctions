@@ -24,3 +24,11 @@ function multiplyWithParams(a, b, c) {
 //Function call
 let product = multiplyWithParams(2, 3, 4);
 
+let fname =  "Mohammad";
+let age = 20;
+
+function sayName(){
+    console.log("My name is", "" + fname + ", my ae is", "" + age);
+}
+sayName();
+
